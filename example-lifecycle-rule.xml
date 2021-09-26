@@ -1,0 +1,10 @@
+<LifecycleConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+  <Rule>
+    <ID>Expire old images</ID>
+    <Prefix />
+    <Status>Enabled</Status>
+    <Expiration>
+      <Days>1095</Days>
+    </Expiration>
+  </Rule>
+</LifecycleConfiguration>
